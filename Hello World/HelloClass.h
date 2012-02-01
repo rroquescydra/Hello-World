@@ -12,4 +12,7 @@
 
 @property (nonatomic, strong)NSString *nome;
 
++ (NSString *) addHelloTo:(NSString *) text;    
++ (NSString *) addByeTo:(NSString *) text;
+    
 @end

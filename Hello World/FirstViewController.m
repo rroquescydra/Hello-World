@@ -7,8 +7,13 @@
 //
 
 #import "FirstViewController.h"
+#import "HelloClass.h"
+
 
 @implementation FirstViewController
+
+@synthesize hello;
+@synthesize label1;
 
 - (void)didReceiveMemoryWarning
 {
@@ -20,6 +25,10 @@
 
 - (void)viewDidLoad
 {
+    
+    NSString * text=[HelloClass addHelloTo:@"A"];
+    
+    [label1 setText:text];
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
 }

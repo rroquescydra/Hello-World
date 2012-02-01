@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "HelloClass.h"
 
 @interface FirstViewController : UIViewController
+
+@property (nonatomic, retain) HelloClass * hello;
+@property (nonatomic, strong) IBOutlet UILabel * label1;
 
 @end
