@@ -20,6 +20,7 @@
 		45D44CA214D9EDDD00E0666C /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D44CA114D9EDDD00E0666C /* SecondViewController.m */; };
 		45D44CA414D9EDDD00E0666C /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 45D44CA314D9EDDD00E0666C /* second.png */; };
 		45D44CA614D9EDDD00E0666C /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 45D44CA514D9EDDD00E0666C /* second@2x.png */; };
+		45D44CB214D9F60A00E0666C /* HelloClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D44CB114D9F60A00E0666C /* HelloClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,8 @@
 		45D44CA114D9EDDD00E0666C /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		45D44CA314D9EDDD00E0666C /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
 		45D44CA514D9EDDD00E0666C /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		45D44CB014D9F60A00E0666C /* HelloClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelloClass.h; sourceTree = "<group>"; };
+		45D44CB114D9F60A00E0666C /* HelloClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelloClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +91,8 @@
 		45D44C8A14D9EDDD00E0666C /* Hello World */ = {
 			isa = PBXGroup;
 			children = (
+				45D44CB014D9F60A00E0666C /* HelloClass.h */,
+				45D44CB114D9F60A00E0666C /* HelloClass.m */,
 				45D44C9314D9EDDD00E0666C /* AppDelegate.h */,
 				45D44C9414D9EDDD00E0666C /* AppDelegate.m */,
 				45D44C9614D9EDDD00E0666C /* MainStoryboard.storyboard */,
@@ -185,6 +190,7 @@
 				45D44C9514D9EDDD00E0666C /* AppDelegate.m in Sources */,
 				45D44C9B14D9EDDD00E0666C /* FirstViewController.m in Sources */,
 				45D44CA214D9EDDD00E0666C /* SecondViewController.m in Sources */,
+				45D44CB214D9F60A00E0666C /* HelloClass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,6 +302,7 @@
 				45D44CAB14D9EDDD00E0666C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
