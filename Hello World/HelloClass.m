@@ -12,4 +12,11 @@
 
 @synthesize nome=_nome;
 
++ (NSString *) addHelloTo:(NSString *) texto{
+
+    NSString * output= [@"Hello " stringByAppendingFormat:texto];
+    
+    return output;
+}
+
 @end
